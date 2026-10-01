@@ -11,7 +11,7 @@ import { ParallaxPins } from "@/components/ParallaxPins";
 
 const ROT = [-5, 3, -2, 6, -4];
 
-/** ATO V — OS BASTIDORES: números reais do perfil, comunidade e mural. */
+/** ATO V — OS BASTIDORES: números reais do perfil e mural. */
 export function ActBackstage() {
   const ig = site.instagram;
 
