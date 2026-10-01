@@ -91,8 +91,6 @@ export const site = {
      * direciona para o fluxo de reserva e oferece o telefone fixo.
      */
     whatsappNumber: null as string | null,
-    /** TODO A CONFIRMAR: link de convite da Comunidade no WhatsApp. */
-    whatsappCommunityUrl: null as string | null,
   },
 
   address: {

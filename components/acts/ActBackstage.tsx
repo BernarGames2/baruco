@@ -6,7 +6,7 @@ import { Media } from "@/components/Media";
 import { Pending } from "@/components/Pending";
 import { MagneticButton } from "@/components/MagneticButton";
 import { InstagramEmbeds } from "@/components/InstagramMural";
-import { InstagramGlyph, WhatsAppGlyph } from "@/components/Icons";
+import { InstagramGlyph } from "@/components/Icons";
 import { ParallaxPins } from "@/components/ParallaxPins";
 
 const ROT = [-5, 3, -2, 6, -4];
@@ -14,7 +14,6 @@ const ROT = [-5, 3, -2, 6, -4];
 /** ATO V — OS BASTIDORES: números reais do perfil, comunidade e mural. */
 export function ActBackstage() {
   const ig = site.instagram;
-  const community = site.contact.whatsappCommunityUrl;
 
   return (
     <section id="ato-5" aria-labelledby="ato-5-title" className="act act-backstage">
@@ -45,28 +44,7 @@ export function ActBackstage() {
         <BulbRow count={21} mode="scroll" size={9} className="billboard-bulbs" />
       </div>
 
-      <div className="backstage-grid">
-        {/* Comunidade */}
-        <article className="coxia" aria-labelledby="coxia-title">
-          <p className="mono text-ouro">A coxia</p>
-          <h3 id="coxia-title" className="display coxia-title">
-            Comunidade no <em className="metal-text">WhatsApp</em>
-          </h3>
-          <p className="coxia-text">O salão tem uma comunidade no WhatsApp. Puxa uma cadeira e entra pra turma.</p>
-          {community ? (
-            <MagneticButton href={community} external>
-              <WhatsAppGlyph className="h-5 w-5" /> Entrar na comunidade
-            </MagneticButton>
-          ) : (
-            <>
-              <MagneticButton disabled ariaLabel="Entrar na comunidade (link a confirmar)">
-                <WhatsAppGlyph className="h-5 w-5" /> Entrar na comunidade
-              </MagneticButton>
-              <Pending>link da comunidade</Pending>
-            </>
-          )}
-        </article>
-
+      <div className="backstage-grid backstage-solo">
         {/* Mural de camarim */}
         <div className="mural" aria-labelledby="mural-title">
           <h3 id="mural-title" className="sr-only">

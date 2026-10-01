@@ -4,7 +4,6 @@ Tudo abaixo está marcado no site com o selo "A CONFIRMAR" e centralizado em `co
 
 ## Dados do salão
 1. **Número oficial do WhatsApp** de agendamento → `site.contact.whatsappNumber` (hoje `null`: os botões levam ao fluxo de reserva, que gera a mensagem e oferece copiar/ligar no fixo).
-2. **Link da Comunidade no WhatsApp** → `site.contact.whatsappCommunityUrl` (botão desabilitado até lá).
 3. **Logo vetorial (SVG/PDF)** do monograma BS — o monograma atual é uma interpretação provisória (`components/Monogram.tsx`, `app/icon.svg`, `public/og.png`).
 4. **Lista de serviços** e se divulga preços (hoje só os confirmados pela bio/destaques, todos "valores: consulte").
 5. **O que são "Curso Lotufo" e "Romeu Felipe"** — capítulos com conteúdo 100% pendente.

@@ -16,7 +16,7 @@ NEXT_PUBLIC_SITE_URL=https://dominio npm run build   # quando houver domínio
 - **Ato I + II (palco pinado)**: título letra a letra, anel "storie", fita em S em WebGL (OGL, lazy, reage a mouse/giroscópio/rolagem, pausa fora da tela, fallback SVG); o círculo se expande e vira o fundo do **Espelho**, cujas lâmpadas acendem em onda e o texto surge "refletido".
 - **Ato III — Capítulos**: os 8 destaques reais; visualizador Stories fullscreen (barras, toque nas bordas, swipe, setas, ←/→/Esc/Espaço, 6 s com pausa ao segurar, wipe radial, CTA "Agendar [capítulo]"); fallback `<noscript>`.
 - **Ato IV — Passarela**: 12 reels 9:16 pinados com parallax, tilt 3D, contador 01/12 e luzes de passarela; carrossel por swipe no mobile; antes/depois com puxador-tesoura (acessível por teclado).
-- **Ato V — Bastidores**: letreiro "em cartaz" com contadores reais, comunidade (link pendente), mural de camarim; embeds do Instagram só com clique.
+- **Ato V — Bastidores**: letreiro "em cartaz" com contadores reais, mural de camarim; embeds do Instagram só com clique.
 - **Ato VI — Camarim Reservado**: fluxo de 3 cenas → mensagem wa.me pré-preenchida; confirmação com cortina + estrela + vibração; ficha de camarim com ABERTO/FECHADO em America/Sao_Paulo; mapa por clique, "Como chegar", telefone.
 - **Assinaturas**: fio dourado fixo que costura os Atos, cortinas de 0,5 s nas claquetes, holofote/tesoura no cursor, botões magnéticos com lâmpadas, navegação "Roteiro" em vez de menu, 404 "Essa cena foi cortada".
 - **SEO**: title/description pedidos, JSON-LD HairSalon (sem aggregateRating), OG 1200×630, robots, sitemap. Analytics desligado (banner LGPD pronto em `ConsentBanner`).

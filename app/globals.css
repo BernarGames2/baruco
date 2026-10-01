@@ -2816,3 +2816,5 @@ html:not(.motion) .runway-light,
 @media (max-width: 767px) { .wizard-next.mag-md { padding: 0 20px; } }
 .map-facade { place-content: end center; padding-bottom: 28px; }
 .map-caption { margin-top: 0; }
+
+.backstage-solo { grid-template-columns: 1fr; max-width: 900px; }
